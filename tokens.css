@@ -1,0 +1,59 @@
+/**
+ * Enterprise Color Palette Tokens
+ * Apply one palette at a time by scoping to a class or data attribute,
+ * or use individual variables directly.
+ *
+ * Usage example:
+ *   <body data-palette="enterprise-blue"> ... </body>
+ */
+
+/* ─── Palette 1 – Enterprise Blue ─────────────────────────────────────────── */
+:root,
+[data-palette="enterprise-blue"] {
+  --palette-1-canvas:  #F5F7FA;
+  --palette-1-primary: #2563EB;
+  --palette-1-text:    #1F2933;
+  --palette-1-success: #16A34A;
+  --palette-1-warning: #F59E0B;
+  --palette-1-error:   #DC2626;
+}
+
+/* ─── Palette 2 – Navy & Cobalt ────────────────────────────────────────────── */
+[data-palette="navy-cobalt"] {
+  --palette-2-canvas:        #F4F5F7;
+  --palette-2-primary:       #000080;
+  --palette-2-primary-light: #2563EB;
+  --palette-2-accent:        #00B4D8;
+  --palette-2-success:       #0F766E;
+  --palette-2-error:         #B91C1C;
+}
+
+/* ─── Palette 3 – Teal & Slate ─────────────────────────────────────────────── */
+[data-palette="teal-slate"] {
+  --palette-3-canvas:  #F4F6F8;
+  --palette-3-primary: #0F766E;
+  --palette-3-accent:  #3B82F6;
+  --palette-3-text:    #111827;
+  --palette-3-success: #22C55E;
+  --palette-3-error:   #EF4444;
+}
+
+/* ─── Palette 4 – Dark Theme Enterprise ────────────────────────────────────── */
+[data-palette="dark-enterprise"] {
+  --palette-4-canvas:  #020617;
+  --palette-4-surface: #0B1120;
+  --palette-4-primary: #38BDF8;
+  --palette-4-text:    #E5E7EB;
+  --palette-4-success: #22C55E;
+  --palette-4-error:   #F97316;
+}
+
+/* ─── Palette 5 – Warm Neutral + Royal Blue ─────────────────────────────────── */
+[data-palette="warm-royal"] {
+  --palette-5-canvas:    #FAFAF9;
+  --palette-5-primary:   #4169E1;
+  --palette-5-secondary: #F5EDE3;
+  --palette-5-accent:    #FFC857;
+  --palette-5-success:   #2BA84A;
+  --palette-5-error:     #E63946;
+}
